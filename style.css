@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(var(--black), var(--darkpurple));
+    background-repeat: no-repeat;
+    color: white;
+}
+h1, h2, h3, h4{
+    color: var(--purple6);
+}
+header{
+    border-bottom: solid 2px var(--purple6);
+}
+nav{
+    width: 100%;
+    position: relative;
+}
+nav ol{
+    display: inline-block;
+}
+a, a:visited{color: var(--cyan)}
